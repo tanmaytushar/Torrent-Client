@@ -1,0 +1,5 @@
+ To download all the pieces
+ ./your_bittorrent.sh download -o /tmp/test.txt sample.torrent 
+
+To download a single piece
+./your_bittorrent.sh download_piece -o /tmp/test-piece sample.torrent <piece_index>
